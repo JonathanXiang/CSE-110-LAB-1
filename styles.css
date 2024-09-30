@@ -1,0 +1,99 @@
+.Sect1 {
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 147px;
+    font-size: 28px;
+}
+.Sect3 {
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 147px;
+    font-size: 28px;
+}
+.Sect2 {
+    background-image: url(bg-orbs-1.jpeg);
+    color: white;
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 147px;
+    font-size: 28px;
+}
+.Navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    font-size: 28px;
+    
+}
+.Navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: black;
+    
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 28px;
+}
+.Navbar menu {
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.Navbar a:hover{
+    background-color: #182b49;
+    color: white;
+    
+}
+.Navbar img {
+    max-width: 400px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    
+}
+.box {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+
+}
+img {
+    max-width: 100%;
+}
+
+@media (width <= 800px) {
+    .Navbar a {
+        display: none;
+    }
+    .Navbar img {
+        max-width: 75%;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        
+    }
+}
