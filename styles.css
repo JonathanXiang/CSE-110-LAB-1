@@ -1,25 +1,36 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
 .Sect1 {
     background-color: rgb(245, 240, 230);
     display: inline-block;
-    width: 100%;
+    
     scroll-margin-top: 147px;
     font-size: 28px;
+    padding: 20px 20px 20px 20px;
+    width: calc(100% - 40px);
+    margin: 0px 0px 0px 0px;
 }
 .Sect3 {
     background-color: rgb(245, 240, 230);
     display: inline-block;
-    width: 100%;
+    
     scroll-margin-top: 147px;
     font-size: 28px;
+    padding: 20px 20px 20px 20px;
     padding-bottom: 150px;
+    width: calc(100% - 40px);
+    
 }
 .Sect2 {
     background-image: url(bg-orbs-1.jpeg);
     color: white;
     display: inline-block;
-    width: 100%;
+    padding: 20px 20px 20px 20px;
     scroll-margin-top: 147px;
     font-size: 28px;
+    width: calc(100% - 40px);
+    
 }
 .Navbar {
     position: sticky;
@@ -27,6 +38,7 @@
     overflow: hidden;
     background-color: white;
     font-size: 28px;
+    
     
 }
 .Navbar a{
@@ -72,7 +84,9 @@ li a {
     color: white;
     max-height: 500px;
     overflow: scroll;
-
+    padding: 10px 10px 10px 10px;
+    width: calc(100% - 20px);
+    overflow-x: hidden;
 }
 img {
     max-width: 100%;
@@ -95,6 +109,6 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
-        
+        text-align: center;
     }
 }
